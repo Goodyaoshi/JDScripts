@@ -66,6 +66,7 @@ node ./jd_ifanli.js
 node ./jd_jchsign.js
 node ./jd_jd2xd.js
 node ./jd_jdfactory.js
+node ./jd_jdtj_winner.js
 node ./jd_jdzz.js
 node ./jd_jin_tie.js
 node ./jd_jinli_hongbao.js
