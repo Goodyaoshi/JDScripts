@@ -56,10 +56,11 @@ node ./jd_guacleancart.js
 node ./jd_guaddworld.js
 node ./jd_guaopencard81.js
 node ./jd_guaopencard82.js
-node ./jd_guaopencard83.js
 node ./jd_guaopencard84.js
 node ./jd_guaopencard85.js
-node ./jd_guaopencard86.js
+node ./jd_guaopencard86s.js
+node ./jd_guaopencard87.js
+node ./jd_guaopencard88.js
 node ./jd_guawealth_island.js
 node ./jd_health.js
 node ./jd_health2.js
