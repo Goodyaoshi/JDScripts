@@ -69,7 +69,6 @@ node ./jd_health2.js
 node ./jd_health_collect.js
 node ./jd_ifanli.js
 node ./jd_jchsign.js
-node ./jd_jd2xd.js
 node ./jd_jdfactory.js
 node ./jd_jdtj_winner.js
 node ./jd_jdzz.js
@@ -77,7 +76,6 @@ node ./jd_jin_tie.js
 node ./jd_jinli_hongbao.js
 node ./jd_joy.js
 node ./jd_joy_feedPets.js
-node ./jd_joy_new.js
 node ./jd_joy_park.js
 node ./jd_joy_park_task.js
 node ./jd_joy_reward.js
@@ -134,7 +132,6 @@ node ./jd_split.js
 node ./jd_superBrand.js
 node ./jd_superMarket.js
 node ./jd_syj.js
-node ./jd_tewu.js
 node ./jd_track.js
 node ./jd_try.js
 node ./jd_ttpt.js
