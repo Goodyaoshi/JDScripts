@@ -54,12 +54,10 @@ node ./jd_guaUnknownTask7.js
 node ./jd_guaUnknownTask9.js
 node ./jd_guacleancart.js
 node ./jd_guaddworld.js
-node ./jd_guaopencard81.js
 node ./jd_guaopencard84.js
 node ./jd_guaopencard85.js
 node ./jd_guaopencard86s.js
 node ./jd_guaopencard87.js
-node ./jd_guaopencard88.js
 node ./jd_guaopencard89.js
 node ./jd_guaopencard90.js
 node ./jd_guaopencard91.js
