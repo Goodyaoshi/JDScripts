@@ -60,7 +60,6 @@ node ./jd_guaopencard86s.js
 node ./jd_guaopencard87.js
 node ./jd_guaopencard89.js
 node ./jd_guaopencard90.js
-node ./jd_guaopencard91.js
 node ./jd_guawealth_island.js
 node ./jd_health.js
 node ./jd_health2.js
