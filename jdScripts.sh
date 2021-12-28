@@ -61,6 +61,7 @@ node ./jd_guaopencard87.js
 node ./jd_guaopencard89.js
 node ./jd_guaopencard90.js
 node ./jd_guawealth_island.js
+node ./jd_hc_rain.js
 node ./jd_health.js
 node ./jd_health2.js
 node ./jd_health_collect.js
@@ -98,6 +99,7 @@ node ./jd_market_lottery.js
 node ./jd_mf.js
 node ./jd_mf_exchange.js
 node ./jd_mofang.js
+node ./jd_mofang_j.js
 node ./jd_mohe.js
 node ./jd_moneyTree.js
 node ./jd_ms.js
