@@ -57,8 +57,6 @@ node ./jd_guaddworld.js
 node ./jd_guaopencard84.js
 node ./jd_guaopencard85.js
 node ./jd_guaopencard86s.js
-node ./jd_guaopencard87.js
-node ./jd_guaopencard89.js
 node ./jd_guaopencard90.js
 node ./jd_guawealth_island.js
 node ./jd_hc_rain.js
@@ -95,6 +93,7 @@ node ./jd_live.js
 node ./jd_live_redrain.js
 node ./jd_lotteryMachine.js
 node ./jd_lsj.js
+node ./jd_m_sign.js
 node ./jd_market_lottery.js
 node ./jd_mf.js
 node ./jd_mf_exchange.js
