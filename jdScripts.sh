@@ -58,6 +58,7 @@ node ./jd_guaopencard84.js
 node ./jd_guaopencard85.js
 node ./jd_guaopencard86s.js
 node ./jd_guaopencard90.js
+node ./jd_guaopencard92.js
 node ./jd_guawealth_island.js
 node ./jd_hc_rain.js
 node ./jd_health.js
