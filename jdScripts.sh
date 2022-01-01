@@ -140,6 +140,7 @@ node ./jd_validate_Worker.js
 node ./jd_wish.js
 node ./jd_work_validate.js
 node ./jd_wxFans.js
+node ./jd_wxFansfan.js
 node ./jd_wxFansli.js
 node ./jd_wxFanspai_sign.js
 node ./jd_yili_cow.js
