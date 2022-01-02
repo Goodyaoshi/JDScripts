@@ -45,7 +45,6 @@ node ./jd_family.js
 node ./jd_foodRunning.js
 node ./jd_fruit.js
 node ./jd_fruit_moreTask.js
-node ./jd_fxhh.js
 node ./jd_getUp.js
 node ./jd_get_share_code.js
 node ./jd_gold_creator.js
@@ -99,7 +98,6 @@ node ./jd_market_lottery.js
 node ./jd_mf.js
 node ./jd_mf_exchange.js
 node ./jd_mofang.js
-node ./jd_mofang_j.js
 node ./jd_mohe.js
 node ./jd_moneyTree.js
 node ./jd_ms.js
@@ -114,7 +112,6 @@ node ./jd_price.js
 node ./jd_productZ4Brand.js
 node ./jd_ql_repo.js
 node ./jd_qq_pasture.js
-node ./jd_qqxing.js
 node ./jd_rankingList.js
 node ./jd_redPacket.js
 node ./jd_reward.js
@@ -140,7 +137,6 @@ node ./jd_validate_Worker.js
 node ./jd_wish.js
 node ./jd_work_validate.js
 node ./jd_wxFans.js
-node ./jd_wxFansfan.js
 node ./jd_wxFansli.js
 node ./jd_wxFanspai_sign.js
 node ./jd_yili_cow.js
