@@ -49,6 +49,7 @@ node ./jd_getUp.js
 node ./jd_get_share_code.js
 node ./jd_gold_creator.js
 node ./jd_guaMMdou.js
+node ./jd_guaUnknownTask5.js
 node ./jd_guaUnknownTask7.js
 node ./jd_guaUnknownTask9.js
 node ./jd_guacleancart.js
@@ -103,6 +104,7 @@ node ./jd_moneyTree.js
 node ./jd_ms.js
 node ./jd_necklace.js
 node ./jd_newCron.js
+node ./jd_nh_sign.js
 node ./jd_nzmh.js
 node ./jd_order_cashback.js
 node ./jd_pet.js
