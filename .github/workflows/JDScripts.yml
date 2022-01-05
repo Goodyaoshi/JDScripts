@@ -46,6 +46,7 @@ jobs:
         mv ./JDHelloWorld/githubAction.md ./githubAction.md
         rm -rf ./JDHelloWorld/jd_喂猪.ts
         rm -rf ./JDHelloWorld/jd_speed_redEnvelope.ts
+        rm -rf ./JDHelloWorld/jd_jxScore.ts
         echo "========= 开始复制依赖 ========="
         cp -f ./JDHelloWorld/package.json ./
         cp -f ./JDHelloWorld/sendNotify.js ./
