@@ -54,10 +54,8 @@ node ./jd_guaUnknownTask7.js
 node ./jd_guaUnknownTask9.js
 node ./jd_guacleancart.js
 node ./jd_guaddworld.js
-node ./jd_guaopencard84.js
 node ./jd_guaopencard85.js
 node ./jd_guaopencard86s.js
-node ./jd_guaopencard90.js
 node ./jd_guaopencard92.js
 node ./jd_guawealth_island.js
 node ./jd_hc_rain.js
@@ -130,6 +128,7 @@ node ./jd_split.js
 node ./jd_superBrand.js
 node ./jd_superMarket.js
 node ./jd_syj.js
+node ./jd_tls.js
 node ./jd_track.js
 node ./jd_try.js
 node ./jd_ttpt.js
