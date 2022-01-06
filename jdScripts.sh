@@ -49,14 +49,13 @@ node ./jd_getUp.js
 node ./jd_get_share_code.js
 node ./jd_gold_creator.js
 node ./jd_guaMMdou.js
-node ./jd_guaUnknownTask5.js
 node ./jd_guaUnknownTask7.js
 node ./jd_guaUnknownTask9.js
 node ./jd_guacleancart.js
 node ./jd_guaddworld.js
-node ./jd_guaopencard85.js
-node ./jd_guaopencard86s.js
 node ./jd_guaopencard92.js
+node ./jd_guaopencard93.js
+node ./jd_guaopencard94.js
 node ./jd_guawealth_island.js
 node ./jd_hc_rain.js
 node ./jd_health.js
