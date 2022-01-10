@@ -24,6 +24,8 @@ node ./jd_cfd_help.js
 node ./jd_cfd_shell.js
 node ./jd_cfd_stock.js
 node ./jd_city.js
+node ./jd_city1.js
+node ./jd_city2.js
 node ./jd_club_lottery.js
 node ./jd_connoisseur.js
 node ./jd_daily_lottery.js
@@ -57,7 +59,6 @@ node ./jd_guacleancart.js
 node ./jd_guanhjRed.js
 node ./jd_guaopencard100.js
 node ./jd_guaopencard101.js
-node ./jd_guaopencard92.js
 node ./jd_guaopencard93.js
 node ./jd_guaopencard94.js
 node ./jd_guaopencard95.js
@@ -70,7 +71,6 @@ node ./jd_health.js
 node ./jd_health2.js
 node ./jd_health_collect.js
 node ./jd_ifanli.js
-node ./jd_jchsign.js
 node ./jd_jdfactory.js
 node ./jd_jdtj_winner.js
 node ./jd_jdzz.js
@@ -101,8 +101,6 @@ node ./jd_lotteryMachine.js
 node ./jd_lsj.js
 node ./jd_m_sign.js
 node ./jd_market_lottery.js
-node ./jd_mf.js
-node ./jd_mf_exchange.js
 node ./jd_mofang.js
 node ./jd_mohe.js
 node ./jd_moneyTree.js
