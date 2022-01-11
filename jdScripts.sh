@@ -26,6 +26,7 @@ node ./jd_cfd_stock.js
 node ./jd_city.js
 node ./jd_city1.js
 node ./jd_city2.js
+node ./jd_cjhz.js
 node ./jd_club_lottery.js
 node ./jd_connoisseur.js
 node ./jd_daily_lottery.js
@@ -67,6 +68,7 @@ node ./jd_guaopencard97.js
 node ./jd_guaopencard98.js
 node ./jd_guaopencard99.js
 node ./jd_guawealth_island.js
+node ./jd_hcb_red.js
 node ./jd_health.js
 node ./jd_health2.js
 node ./jd_health_collect.js
