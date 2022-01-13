@@ -24,8 +24,6 @@ node ./jd_cfd_help.js
 node ./jd_cfd_shell.js
 node ./jd_cfd_stock.js
 node ./jd_city.js
-node ./jd_city1.js
-node ./jd_city2.js
 node ./jd_cjhz.js
 node ./jd_club_lottery.js
 node ./jd_connoisseur.js
@@ -55,11 +53,13 @@ node ./jd_gold_creator.js
 node ./jd_guaMMdou.js
 node ./jd_guaUnknownTask7.js
 node ./jd_guaUnknownTask9.js
-node ./jd_guacity.js
 node ./jd_guacleancart.js
 node ./jd_guanhjRed.js
 node ./jd_guaopencard100.js
 node ./jd_guaopencard101.js
+node ./jd_guaopencard102.js
+node ./jd_guaopencard103.js
+node ./jd_guaopencard104.js
 node ./jd_guaopencard93.js
 node ./jd_guaopencard94.js
 node ./jd_guaopencard95.js
