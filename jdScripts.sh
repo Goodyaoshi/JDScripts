@@ -29,13 +29,13 @@ node ./jd_club_lottery.js
 node ./jd_connoisseur.js
 node ./jd_daily_lottery.js
 node ./jd_ddnc_farmpark.js
-node ./jd_ddworld.js
 node ./jd_ddworld_exchange.js
 node ./jd_dj_bean.js
 node ./jd_dj_fruit.js
 node ./jd_dj_fruit_collectWater.js
 node ./jd_dj_getPoints.js
 node ./jd_dj_plantBeans.js
+node ./jd_dns_shop.js
 node ./jd_dreamFactory.js
 node ./jd_dreamFactory_help.js
 node ./jd_dreamFactory_tuan.js
@@ -60,6 +60,9 @@ node ./jd_guaopencard101.js
 node ./jd_guaopencard102.js
 node ./jd_guaopencard103.js
 node ./jd_guaopencard104.js
+node ./jd_guaopencard105.js
+node ./jd_guaopencard106.js
+node ./jd_guaopencard107.js
 node ./jd_guaopencard93.js
 node ./jd_guaopencard94.js
 node ./jd_guaopencard95.js
