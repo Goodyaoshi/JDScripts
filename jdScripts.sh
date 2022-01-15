@@ -7,6 +7,7 @@ node ./jd_Last_Week_income.js
 node ./jd_all_bean_change.js
 node ./jd_angryKoi.js
 node ./jd_api_test.js
+node ./jd_babel_sign.js
 node ./jd_bean_box.js
 node ./jd_bean_change.js
 node ./jd_bean_home.js
@@ -154,6 +155,7 @@ node ./jd_wxFans.js
 node ./jd_wxFansli.js
 node ./jd_wxFanspai_sign.js
 node ./jd_xiaolong.js
+node ./jd_year_bill.js
 node ./jd_yili_cow.js
 node ./jd_zqfl.js
 node ./sign_graphics_validate.js
