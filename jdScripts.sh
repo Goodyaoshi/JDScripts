@@ -107,6 +107,7 @@ node ./jd_lotteryMachine.js
 node ./jd_lsj.js
 node ./jd_m_sign.js
 node ./jd_market_lottery.js
+node ./jd_mhyyl.js
 node ./jd_mofang.js
 node ./jd_mohe.js
 node ./jd_moneyTree.js
@@ -143,6 +144,7 @@ node ./jd_split.js
 node ./jd_superBrand.js
 node ./jd_superMarket.js
 node ./jd_syj.js
+node ./jd_tiger.js
 node ./jd_track.js
 node ./jd_try.js
 node ./jd_ttpt.js
