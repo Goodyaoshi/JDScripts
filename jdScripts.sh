@@ -56,11 +56,9 @@ node ./jd_guaUnknownTask7.js
 node ./jd_guaUnknownTask9.js
 node ./jd_guacleancart.js
 node ./jd_guanhjRed.js
-node ./jd_guaopencard100.js
 node ./jd_guaopencard101.js
 node ./jd_guaopencard102.js
 node ./jd_guaopencard103.js
-node ./jd_guaopencard104.js
 node ./jd_guaopencard105.js
 node ./jd_guaopencard106.js
 node ./jd_guaopencard107.js
@@ -70,7 +68,6 @@ node ./jd_guaopencard95.js
 node ./jd_guaopencard96.js
 node ./jd_guaopencard97.js
 node ./jd_guaopencard98.js
-node ./jd_guaopencard99.js
 node ./jd_guawealth_island.js
 node ./jd_hcb_red.js
 node ./jd_health.js
