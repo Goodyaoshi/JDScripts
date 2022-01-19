@@ -48,7 +48,7 @@ jobs:
         rm -rf ./JDHelloWorld/jd_speed_redEnvelope.ts
         rm -rf ./JDHelloWorld/jd_jxScore.ts
         rm -rf ./JDHelloWorld/jd_city1.ts
-        rm -rf ./JDHelloWorld/V3.ts
+        rm -rf ./JDHelloWorld/utils/V3.ts
         echo "========= 开始复制依赖 ========="
         cp -f ./JDHelloWorld/package.json ./
         cp -f ./JDHelloWorld/sendNotify.js ./
