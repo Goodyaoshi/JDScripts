@@ -54,6 +54,11 @@ jobs:
         rm -rf ./JDHelloWorld/jd_ysq.ts
         rm -rf ./JDHelloWorld/jd_jxmc_getCoin.ts
         rm -rf ./JDHelloWorld/jd_jxgc.ts
+        rm -rf ./JDHelloWorld/jd_health.ts
+        rm -rf ./JDHelloWorld/jd_jinli_hongbao.ts
+        rm -rf ./JDHelloWorld/jd_order_cashback.ts
+        rm -rf ./JDHelloWorld/jd_tewu.ts
+        rm -rf ./JDHelloWorld/jd_tiger.ts
         echo "========= 开始复制依赖 ========="
         cp -f ./JDHelloWorld/package.json ./
         cp -f ./JDHelloWorld/sendNotify.js ./
