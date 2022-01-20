@@ -53,6 +53,7 @@ jobs:
         rm -rf ./JDHelloWorld/jd_jxmc.ts
         rm -rf ./JDHelloWorld/jd_ysq.ts
         rm -rf ./JDHelloWorld/jd_jxmc_getCoin.ts
+        rm -rf ./JDHelloWorld/jd_jxgc.ts
         echo "========= 开始复制依赖 ========="
         cp -f ./JDHelloWorld/package.json ./
         cp -f ./JDHelloWorld/sendNotify.js ./
