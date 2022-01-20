@@ -62,6 +62,7 @@ node ./jd_guaopencard103.js
 node ./jd_guaopencard105.js
 node ./jd_guaopencard106.js
 node ./jd_guaopencard107.js
+node ./jd_guaopencard108.js
 node ./jd_guaopencard93.js
 node ./jd_guaopencard94.js
 node ./jd_guaopencard95.js
@@ -78,7 +79,6 @@ node ./jd_jdfactory.js
 node ./jd_jdtj_winner.js
 node ./jd_jdzz.js
 node ./jd_jin_tie.js
-node ./jd_jinli_hongbao.js
 node ./jd_joy.js
 node ./jd_joy_feedPets.js
 node ./jd_joy_park.js
@@ -88,11 +88,9 @@ node ./jd_joy_run.js
 node ./jd_joy_steal.js
 node ./jd_jump.js
 node ./jd_jxbox.js
-node ./jd_jxgc.js
 node ./jd_jxgc_stock.js
 node ./jd_jxlhb.js
 node ./jd_jxmc.js
-node ./jd_jxmc_getCoin.js
 node ./jd_jxmc_stock.js
 node ./jd_jxnc.js
 node ./jd_jxnnfls.js
@@ -105,6 +103,7 @@ node ./jd_lsj.js
 node ./jd_m_sign.js
 node ./jd_market_lottery.js
 node ./jd_mhyyl.js
+node ./jd_mhyyl_sendCard.js
 node ./jd_mofang.js
 node ./jd_mohe.js
 node ./jd_moneyTree.js
@@ -117,7 +116,6 @@ node ./jd_newCron.js
 node ./jd_nh_sign.js
 node ./jd_nhs_red.js
 node ./jd_nzmh.js
-node ./jd_order_cashback.js
 node ./jd_pet.js
 node ./jd_pigPet.js
 node ./jd_plantBean.js
@@ -127,7 +125,6 @@ node ./jd_ql_repo.js
 node ./jd_qq_pasture.js
 node ./jd_rankingList.js
 node ./jd_redPacket.js
-node ./jd_reward.js
 node ./jd_sendBeans.js
 node ./jd_sgmh.js
 node ./jd_shop.js
@@ -141,7 +138,6 @@ node ./jd_split.js
 node ./jd_superBrand.js
 node ./jd_superMarket.js
 node ./jd_syj.js
-node ./jd_tiger.js
 node ./jd_track.js
 node ./jd_try.js
 node ./jd_ttpt.js
@@ -154,7 +150,6 @@ node ./jd_wxFans.js
 node ./jd_wxFansli.js
 node ./jd_wxFanspai_sign.js
 node ./jd_xiaolong.js
-node ./jd_year_bill.js
 node ./jd_yili_cow.js
 node ./jd_zqfl.js
 node ./sign_graphics_validate.js
