@@ -59,6 +59,7 @@ jobs:
         rm -rf ./JDHelloWorld/jd_order_cashback.ts
         rm -rf ./JDHelloWorld/jd_tewu.ts
         rm -rf ./JDHelloWorld/jd_tiger.ts
+        rm -rf ./JDHelloWorld/jd_jxmc_stock.ts
         echo "========= 开始复制依赖 ========="
         cp -f ./JDHelloWorld/package.json ./
         cp -f ./JDHelloWorld/sendNotify.js ./
