@@ -35,7 +35,6 @@ node ./jd_dj_fruit.js
 node ./jd_dj_fruit_collectWater.js
 node ./jd_dj_getPoints.js
 node ./jd_dj_plantBeans.js
-node ./jd_dns_shop.js
 node ./jd_dreamFactory.js
 node ./jd_dreamFactory_help.js
 node ./jd_dreamFactory_tuan.js
@@ -64,7 +63,6 @@ node ./jd_guaopencard96.js
 node ./jd_guaopencard97.js
 node ./jd_guaopencard98.js
 node ./jd_guawealth_island.js
-node ./jd_hcb_red.js
 node ./jd_health.js
 node ./jd_health2.js
 node ./jd_health_collect.js
@@ -100,7 +98,6 @@ node ./jd_mhyyl_prize.js
 node ./jd_mhyyl_sendCard.js
 node ./jd_mohe.js
 node ./jd_moneyTree.js
-node ./jd_monopoly.js
 node ./jd_mpdzcar.js
 node ./jd_mpdzcar_game.js
 node ./jd_mpdzcar_help.js
@@ -109,7 +106,6 @@ node ./jd_necklace.js
 node ./jd_newCron.js
 node ./jd_nhRedEnvelope.js
 node ./jd_nh_sign.js
-node ./jd_nhs_red.js
 node ./jd_nzmh.js
 node ./jd_pet.js
 node ./jd_pigPet.js
@@ -144,7 +140,6 @@ node ./jd_work_validate.js
 node ./jd_wxFans.js
 node ./jd_wxFansli.js
 node ./jd_wxFanspai_sign.js
-node ./jd_xiaolong.js
 node ./jd_xmf.js
 node ./jd_yili_cow.js
 node ./jd_zqfl.js
