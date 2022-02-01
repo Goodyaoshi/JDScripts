@@ -48,7 +48,7 @@ node ./jd_fruit_moreTask.js
 node ./jd_getUp.js
 node ./jd_get_share_code.js
 node ./jd_gold_creator.js
-node ./jd_guaHappyNewYear_Share.js
+node ./jd_guaHappyNewYear_Shares.js
 node ./jd_guaMMdou.js
 node ./jd_guaUnknownTask7.js
 node ./jd_guaUnknownTask9.js
@@ -89,8 +89,6 @@ node ./jd_lsj.js
 node ./jd_m_sign.js
 node ./jd_market_lottery.js
 node ./jd_mhyyl.js
-node ./jd_mhyyl_prize.js
-node ./jd_mhyyl_sendCard.js
 node ./jd_mohe.js
 node ./jd_moneyTree.js
 node ./jd_mpdzcar.js
@@ -100,7 +98,6 @@ node ./jd_ms.js
 node ./jd_necklace.js
 node ./jd_nhRedEnvelope.js
 node ./jd_nh_sign.js
-node ./jd_ns_open.js
 node ./jd_nzmh.js
 node ./jd_pet.js
 node ./jd_pigPet.js
@@ -115,7 +112,6 @@ node ./jd_sgmh.js
 node ./jd_shop.js
 node ./jd_shop_sign.js
 node ./jd_sign_graphics.js
-node ./jd_sjnhj.js
 node ./jd_sjzjd.js
 node ./jd_speed.js
 node ./jd_speed_redpocke.js
