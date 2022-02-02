@@ -88,6 +88,7 @@ node ./jd_lotteryMachine.js
 node ./jd_lsj.js
 node ./jd_m_sign.js
 node ./jd_market_lottery.js
+node ./jd_mengniu.js
 node ./jd_mhyyl.js
 node ./jd_mohe.js
 node ./jd_moneyTree.js
@@ -98,6 +99,7 @@ node ./jd_ms.js
 node ./jd_necklace.js
 node ./jd_nhRedEnvelope.js
 node ./jd_nh_sign.js
+node ./jd_nhdt.js
 node ./jd_nzmh.js
 node ./jd_pet.js
 node ./jd_pigPet.js
