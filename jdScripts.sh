@@ -1,6 +1,7 @@
 #!/bin/bash
 cd ./
 node ./cleancart_activity.js
+node ./jdSgmhShareCodes.js
 node ./jd_Elecsport.js
 node ./jd_Last_Week_income.js
 node ./jd_all_bean_change.js
@@ -97,7 +98,6 @@ node ./jd_mpdzcar_game.js
 node ./jd_mpdzcar_help.js
 node ./jd_ms.js
 node ./jd_necklace.js
-node ./jd_nhRedEnvelope.js
 node ./jd_nh_sign.js
 node ./jd_nhdt.js
 node ./jd_nzmh.js
