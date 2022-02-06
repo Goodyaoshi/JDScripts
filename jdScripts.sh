@@ -31,6 +31,7 @@ node ./jd_connoisseur.js
 node ./jd_daily_lottery.js
 node ./jd_ddnc_farmpark.js
 node ./jd_ddworld_exchange.js
+node ./jd_deleteCart.js
 node ./jd_dj_bean.js
 node ./jd_dj_fruit.js
 node ./jd_dj_fruit_collectWater.js
@@ -55,8 +56,6 @@ node ./jd_guaUnknownTask7.js
 node ./jd_guaUnknownTask9.js
 node ./jd_guacleancart.js
 node ./jd_guaopencard112.js
-node ./jd_guaopencard93.js
-node ./jd_guaopencard95.js
 node ./jd_guaopencard96.js
 node ./jd_guawealth_island.js
 node ./jd_health.js
