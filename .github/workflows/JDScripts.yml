@@ -30,11 +30,6 @@ jobs:
         cp -rf ./Annyoo2021/utils ./
         cp -rf ./Annyoo2021/function ./
         rm -rf ./Annyoo2021
-        echo "========= 开始下载smiek2221的脚本 ========="
-        git clone https://github.com/smiek2221/scripts.git ./smiek2221
-        rm -rf ./smiek2221/USER_AGENTS.js
-        cp -f ./smiek2221/*_*.js ./
-        rm -rf ./smiek2221
         echo "========= 开始下载curtinlv的脚本 ========="
         git clone https://github.com/curtinlv/JD-Script.git ./curtinlv
         find ./curtinlv/ -name "*py" -type f -exec cp {} ./ \;
@@ -169,24 +164,7 @@ jobs:
         cp -f ./package.json ./RunJDScripts/
         cd ./RunJDScripts/
         npm install
-        traverseDir()
-        {
-            filepath=$1
-            for file in `ls -a $filepath`
-            do
-                if [ -d ${filepath}/$file ]
-                then
-                    echo "This is the directory"
-                else
-                    getJavaScript ${filepath}/$file
-                fi
-            done
-        }
-        getJavaScript()
-        {
-            file=$1
-            if [ "${file##*.}"x = "js"x ];then
-                node $file &
-            fi    
-        }
-        traverseDir .
+        node ./jd_bean_box.js
+        node ./jd_bean_change.js
+        node ./jd_bean_home.js
+        node ./jd_bean_sign.js
