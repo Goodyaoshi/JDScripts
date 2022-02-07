@@ -1,9 +1,9 @@
 #!/bin/bash
 cd ./
-node ./cleancart_activity.js
 node ./jdSgmhShareCodes.js
 node ./jd_Elecsport.js
 node ./jd_Last_Week_income.js
+node ./jd_a.js
 node ./jd_all_bean_change.js
 node ./jd_angryKoi.js
 node ./jd_api_test.js
@@ -39,7 +39,6 @@ node ./jd_dj_getPoints.js
 node ./jd_dj_plantBeans.js
 node ./jd_dreamFactory.js
 node ./jd_dreamFactory_help.js
-node ./jd_dreamFactory_tuan.js
 node ./jd_dwapp.js
 node ./jd_exchange_joy.js
 node ./jd_exchangejxbeans.js
@@ -50,14 +49,6 @@ node ./jd_fruit_moreTask.js
 node ./jd_getUp.js
 node ./jd_get_share_code.js
 node ./jd_gold_creator.js
-node ./jd_guaHappyNewYear_Shares.js
-node ./jd_guaMMdou.js
-node ./jd_guaUnknownTask7.js
-node ./jd_guaUnknownTask9.js
-node ./jd_guacleancart.js
-node ./jd_guaopencard112.js
-node ./jd_guaopencard96.js
-node ./jd_guawealth_island.js
 node ./jd_health.js
 node ./jd_health2.js
 node ./jd_health_collect.js
@@ -88,7 +79,6 @@ node ./jd_lotteryMachine.js
 node ./jd_lsj.js
 node ./jd_m_sign.js
 node ./jd_market_lottery.js
-node ./jd_mengniu.js
 node ./jd_mhyyl.js
 node ./jd_mohe.js
 node ./jd_moneyTree.js
@@ -98,13 +88,11 @@ node ./jd_mpdzcar_help.js
 node ./jd_ms.js
 node ./jd_necklace.js
 node ./jd_nh_sign.js
-node ./jd_nhdt.js
 node ./jd_nzmh.js
 node ./jd_pet.js
 node ./jd_pigPet.js
 node ./jd_plantBean.js
 node ./jd_price.js
-node ./jd_productZ4Brand.js
 node ./jd_qq_pasture.js
 node ./jd_rankingList.js
 node ./jd_redPacket.js
@@ -135,4 +123,3 @@ node ./jd_wxFanspai_sign.js
 node ./jd_xmf.js
 node ./jd_yili_cow.js
 node ./jd_zqfl.js
-node ./sign_graphics_validate.js
