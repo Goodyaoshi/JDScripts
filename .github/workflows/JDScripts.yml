@@ -164,8 +164,10 @@ jobs:
       run: |
         mkdir -p RunJDScripts
         cp -f ./*.js ./RunJDScripts/
+        cp -f ./package.json ./RunJDScripts/
         cp -f ./jdScripts.sh ./RunJDScripts/
         sed -i 's#.js#.js &#g' ./RunJDScripts/jdScripts.sh
         cd ./RunJDScripts/
+        npm install
         sh ./jdScripts.sh
         node ./jd_bean_sign.js
