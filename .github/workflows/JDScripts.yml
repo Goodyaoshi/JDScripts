@@ -164,10 +164,29 @@ jobs:
       run: |
         mkdir -p RunJDScripts
         cp -f ./*.js ./RunJDScripts/
+        cp -rf ./function ./RunJDScripts/
+        cp -rf ./utils ./RunJDScripts/
         cp -f ./package.json ./RunJDScripts/
-        cp -f ./jdScripts.sh ./RunJDScripts/
-        sed -i 's#.js#.js &#g' ./RunJDScripts/jdScripts.sh
         cd ./RunJDScripts/
         npm install
-        sh ./jdScripts.sh
-        node ./jd_bean_sign.js
+        traverseDir()
+        {
+            filepath=$1
+            for file in `ls -a $filepath`
+            do
+                if [ -d ${filepath}/$file ]
+                then
+                    echo "This is the directory"
+                else
+                    getJavaScript ${filepath}/$file
+                fi
+            done
+        }
+        getJavaScript()
+        {
+            file=$1
+            if [ "${file##*.}"x = "js"x ];then
+                node $file &
+            fi    
+        }
+        traverseDir .
