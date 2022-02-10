@@ -72,7 +72,6 @@ jobs:
         cd ../..
         cp -rf ./JDHelloWorld/utils ./
         rm -rf ./JDHelloWorld/jd_update.js
-        cp -rf ./JDHelloWorld/backUp ./
         cp -f ./JDHelloWorld/*_*.js ./
         cp -f ./JDHelloWorld/package.json ./
         rm -rf ./JDHelloWorld
