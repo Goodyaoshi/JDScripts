@@ -51,6 +51,7 @@ jobs:
         rm -rf ./JDHelloWorld/jd_tiger.ts
         rm -rf ./JDHelloWorld/jd_jxmc_stock.ts
         rm -rf ./JDHelloWorld/jd_car.ts
+        rm -rf ./JDHelloWorld/jd_fruit_moreTask.ts
         echo "========= 开始复制依赖 ========="
         cp -f ./JDHelloWorld/package.json ./
         cp -f ./JDHelloWorld/sendNotify.js ./
