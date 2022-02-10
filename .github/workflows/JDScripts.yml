@@ -34,7 +34,6 @@ jobs:
         rm -rf ./star
         echo "========= 开始下载JDHelloWorld的脚本 ========="
         git clone https://github.com/JDHelloWorld/jd_scripts.git ./JDHelloWorld
-        mv ./JDHelloWorld/githubAction.md ./githubAction.md
         rm -rf ./JDHelloWorld/jd_喂猪.ts
         rm -rf ./JDHelloWorld/jd_speed_redEnvelope.ts
         rm -rf ./JDHelloWorld/jd_jxScore.ts
