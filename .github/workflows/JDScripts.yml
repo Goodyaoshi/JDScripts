@@ -148,16 +148,3 @@ jobs:
       with:
         github_token: ${{ secrets.PAT }}
         branch: master
-    - name: Run JDScripts
-      run: |
-        mkdir -p RunJDScripts
-        cp -f ./*.js ./RunJDScripts/
-        cp -rf ./function ./RunJDScripts/
-        cp -rf ./utils ./RunJDScripts/
-        cp -f ./package.json ./RunJDScripts/
-        cd ./RunJDScripts/
-        npm install
-        node ./jd_bean_box.js
-        node ./jd_bean_change.js
-        node ./jd_bean_home.js
-        node ./jd_bean_sign.js
