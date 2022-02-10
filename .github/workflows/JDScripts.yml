@@ -24,12 +24,6 @@ jobs:
         shopt -s extglob
         rm -rf !(backup|README.md)
         shopt -u extglob
-        echo "========= 开始下载小小的脚本及依赖 ========="
-        git clone https://github.com/Annyoo2021/scripts.git ./Annyoo2021
-        cp -f ./Annyoo2021/jd_*.js ./
-        cp -rf ./Annyoo2021/utils ./
-        cp -rf ./Annyoo2021/function ./
-        rm -rf ./Annyoo2021
         echo "========= 开始下载curtinlv的脚本 ========="
         git clone https://github.com/curtinlv/JD-Script.git ./curtinlv
         find ./curtinlv/ -name "*py" -type f -exec cp {} ./ \;
