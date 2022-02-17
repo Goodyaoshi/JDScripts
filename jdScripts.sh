@@ -1,5 +1,6 @@
 #!/bin/bash
 cd ./
+node ./iOS_Cookie.js
 node ./jdSgmhShareCodes.js
 node ./jd_Last_Week_income.js
 node ./jd_a.js
@@ -34,6 +35,7 @@ node ./jd_kd.js
 node ./jd_live.js
 node ./jd_lotteryMachine.js
 node ./jd_moneyTree.js
+node ./jd_nzmh.js
 node ./jd_pet.js
 node ./jd_pigPet.js
 node ./jd_plantBean.js
