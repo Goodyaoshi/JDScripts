@@ -3,10 +3,10 @@ cd ./
 node ./iOS_Cookie.js
 node ./jdSgmhShareCodes.js
 node ./jd_Last_Week_income.js
-node ./jd_a.js
 node ./jd_api_test.js
 node ./jd_bean_box.js
 node ./jd_bean_change.js
+node ./jd_bean_change_diy.js
 node ./jd_bean_sign.js
 node ./jd_bookshop.js
 node ./jd_cash.js
@@ -39,6 +39,7 @@ node ./jd_nzmh.js
 node ./jd_pet.js
 node ./jd_pigPet.js
 node ./jd_plantBean.js
+node ./jd_productZ4Brand.js
 node ./jd_qq_pasture.js
 node ./jd_sgmh.js
 node ./jd_shop_sign.js
@@ -47,4 +48,6 @@ node ./jd_speed_sign.js
 node ./jd_superMarket.js
 node ./jd_track.js
 node ./jd_unsubscribe.js
+node ./jd_wxFans.js
+node ./jd_xiaolongfan.js
 node ./jd_yili_cow.js
