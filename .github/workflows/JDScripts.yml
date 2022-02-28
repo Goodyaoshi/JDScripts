@@ -53,6 +53,7 @@ jobs:
         rm -rf ./JDHelloWorld/jd_car.ts
         rm -rf ./JDHelloWorld/jd_fruit_moreTask.ts
         rm -rf ./JDHelloWorld/jd_zjd.ts
+        rm -rf ./JDHelloWorld/utils/shareCodesTool.ts
         echo "========= 开始复制依赖 ========="
         cp -f ./JDHelloWorld/package.json ./
         cp -f ./JDHelloWorld/sendNotify.js ./
