@@ -20,6 +20,11 @@ jobs:
         sudo apt install rename
     - name: Update JDScripts
       run: |
+        echo "========= 开始备份脚本 ========="
+        cp -rf ./utils ./backup/utils
+        cp -f ./*_*.ts ./backup/
+        cp -f ./*_*.js ./backup/
+        cp -f ./*_*.py ./backup/
         echo "========= 开始清空脚本 ========="
         shopt -s extglob
         rm -rf !(backup|README.md)
