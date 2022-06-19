@@ -36,7 +36,6 @@ jobs:
         git clone https://github.com/JDHelloWorld/jd_scripts.git ./JDHelloWorld
         cp -rf ./JDHelloWorld/utils ./utils
         cp -f ./JDHelloWorld/*_*.ts ./
-        cp -f ./JDHelloWorld/*_*.py ./
         cp -f ./JDHelloWorld/*_*.js ./
         cp -f ./JDHelloWorld/package.json ./
         rm -rf ./JDHelloWorld
