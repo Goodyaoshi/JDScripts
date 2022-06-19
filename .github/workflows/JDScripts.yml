@@ -44,6 +44,11 @@ jobs:
         cp -f ./JDHelloWorld/*_*.js ./
         cp -f ./JDHelloWorld/package.json ./
         rm -rf ./JDHelloWorld
+        echo "========= 开始下载KingRan的脚本 ========="
+        git clone https://github.com/KingRan/KR.git ./KingRan
+        cp -rf ./KingRan/utils/*_*.js ./utils/
+        cp -f ./KingRan/*_*.js ./
+        rm -rf ./KingRan
         echo "========= 开始下载单文件脚本 ========="
         wget -N https://github.com/yangtingxiao/QuantumultX/raw/master/scripts/jd/jd_lotteryMachine.js
         wget -N https://github.com/NobyDa/Script/raw/master/JD-DailyBonus/JD_DailyBonus.js
