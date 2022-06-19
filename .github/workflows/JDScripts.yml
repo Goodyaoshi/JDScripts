@@ -34,26 +34,6 @@ jobs:
         rm -rf ./star
         echo "========= 开始下载JDHelloWorld的脚本 ========="
         git clone https://github.com/JDHelloWorld/jd_scripts.git ./JDHelloWorld
-        rm -rf ./JDHelloWorld/jd_喂猪.ts
-        rm -rf ./JDHelloWorld/jd_speed_redEnvelope.ts
-        rm -rf ./JDHelloWorld/jd_jxScore.ts
-        rm -rf ./JDHelloWorld/jd_city1.ts
-        rm -rf ./JDHelloWorld/utils/V3.ts
-        rm -rf ./JDHelloWorld/jd_cfd.ts
-        rm -rf ./JDHelloWorld/jd_jxmc.ts
-        rm -rf ./JDHelloWorld/jd_ysq.ts
-        rm -rf ./JDHelloWorld/jd_jxmc_getCoin.ts
-        rm -rf ./JDHelloWorld/jd_jxgc.ts
-        rm -rf ./JDHelloWorld/jd_health.ts
-        rm -rf ./JDHelloWorld/jd_jinli_hongbao.ts
-        rm -rf ./JDHelloWorld/jd_order_cashback.ts
-        rm -rf ./JDHelloWorld/jd_tewu.ts
-        rm -rf ./JDHelloWorld/jd_tiger.ts
-        rm -rf ./JDHelloWorld/jd_jxmc_stock.ts
-        rm -rf ./JDHelloWorld/jd_car.ts
-        rm -rf ./JDHelloWorld/jd_fruit_moreTask.ts
-        rm -rf ./JDHelloWorld/jd_zjd.ts
-        rm -rf ./JDHelloWorld/utils/shareCodesTool.ts
         echo "========= 开始复制依赖 ========="
         cp -f ./JDHelloWorld/package.json ./
         cp -f ./JDHelloWorld/sendNotify.js ./
