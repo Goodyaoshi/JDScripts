@@ -48,6 +48,7 @@ jobs:
         wget -N https://github.com/yangtingxiao/QuantumultX/raw/master/scripts/jd/jd_lotteryMachine.js
         wget -N https://github.com/NobyDa/Script/raw/master/JD-DailyBonus/JD_DailyBonus.js
         wget -N https://github.com/jiulan/platypus/raw/main/scripts/jd_shop_sign.js
+        wget -N https://raw.githubusercontent.com/Goodyaoshi/JDScripts/2838d288e253cb9ad456f0ed22714979a61c9498/jdCookie.js
         echo "========= 开始更改前缀 ========="
         rename -f 's/^js_/jd_js/' *
         rename -f 's/^jd_fan/jd_wxFans/' *
