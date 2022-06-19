@@ -20,14 +20,9 @@ jobs:
         sudo apt install rename
     - name: Update JDScripts
       run: |
-        echo "========= 开始备份脚本 ========="
-        cp -rf ./utils ./backup/utils
-        cp -f ./*_*.ts ./backup/
-        cp -f ./*_*.js ./backup/
-        cp -f ./*_*.py ./backup/
         echo "========= 开始清空脚本 ========="
         shopt -s extglob
-        rm -rf !(backup|README.md)
+        rm -rf !(README.md)
         shopt -u extglob
         echo "========= 开始下载curtinlv的脚本 ========="
         git clone https://github.com/curtinlv/JD-Script.git ./curtinlv
