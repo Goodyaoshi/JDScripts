@@ -34,26 +34,9 @@ jobs:
         rm -rf ./star
         echo "========= 开始下载JDHelloWorld的脚本 ========="
         git clone https://github.com/JDHelloWorld/jd_scripts.git ./JDHelloWorld
-        echo "========= 开始复制依赖 ========="
-        cp -f ./JDHelloWorld/package.json ./
-        cp -f ./JDHelloWorld/sendNotify.js ./
-        cp -f ./JDHelloWorld/jdCookie.js ./
-        cp -f ./JDHelloWorld/*ShareCodes.js ./
-        echo "========= 开始转换JDHelloWorld的ts脚本 ========="
-        cd ./JDHelloWorld
-        sudo npm install
-        sudo npm install request-promise
-        sudo npm install request
-        sudo npm install crypto-js
-        sudo npm install iconv-lite
-        sudo npm install fs
-        tsc *_*.ts
-        cd ./utils
-        tsc *.ts
-        echo "========= 开始复制JDHelloWorld的脚本 ========="
-        cd ../..
-        cp -rf ./JDHelloWorld/utils ./
-        rm -rf ./JDHelloWorld/jd_update.js
+        cp -rf ./JDHelloWorld/utils ./utils
+        cp -f ./JDHelloWorld/*_*.ts ./
+        cp -f ./JDHelloWorld/*_*.py ./
         cp -f ./JDHelloWorld/*_*.js ./
         cp -f ./JDHelloWorld/package.json ./
         rm -rf ./JDHelloWorld
@@ -68,56 +51,6 @@ jobs:
         rename -f 's/^gua_/jd_gua/' *
         rename -f 's/^star_/jd_star/' *
         rename -f 's/^jddj/jd_dj/' *
-        echo "========= 开始生成脚本 ========="
-        echo "#!/bin/bash" > ./jdScripts.sh
-        echo "cd ./" >> ./jdScripts.sh
-        traverseDir()
-        {
-            filepath=$1
-            for file in `ls -a $filepath`
-            do
-                if [ -d ${filepath}/$file ]
-                then
-                    echo "This is the directory"
-                else
-                    getJavaScript ${filepath}/$file
-                fi
-            done
-        }
-        getJavaScript()
-        {
-            file=$1
-            if [ "${file##*.}"x = "js"x ];then
-                echo "node "$file >> ./jdScripts.sh
-            fi    
-        }
-        traverseDir .
-        echo "" >> ./jdScripts.sh
-        echo "========= 开始去除内容 ========="
-        sed -i 's#node ./JDJRValidator_Pure.js##g' ./jdScripts.sh
-        sed -i 's#node ./JD_DailyBonus.js##g' ./jdScripts.sh
-        sed -i 's#node ./JD_extra_cookie.js##g' ./jdScripts.sh
-        sed -i 's#node ./JS_USER_AGENTS.js##g' ./jdScripts.sh
-        sed -i 's#node ./TS_USER_AGENTS.js##g' ./jdScripts.sh
-        sed -i 's#node ./USER_AGENTS.js##g' ./jdScripts.sh
-        sed -i 's#node ./ZooFaker_Necklace.js##g' ./jdScripts.sh
-        sed -i 's#node ./jdCookie.js##g' ./jdScripts.sh
-        sed -i 's#node ./jd_getShareCodes.js##g' ./jdScripts.sh
-        sed -i 's#node ./jdDreamFactoryShareCodes.js##g' ./jdScripts.sh
-        sed -i 's#node ./jdFactoryShareCodes.js##g' ./jdScripts.sh
-        sed -i 's#node ./jdFruitShareCodes.js##g' ./jdScripts.sh
-        sed -i 's#node ./jdJxncShareCodes.js##g' ./jdScripts.sh
-        sed -i 's#node ./jdPetShareCodes.js##g' ./jdScripts.sh
-        sed -i 's#node ./jdPlantBeanShareCodes.js##g' ./jdScripts.sh
-        sed -i 's#node ./jd_delCoupon.js##g' ./jdScripts.sh
-        sed -i 's#node ./sendNotify.js##g' ./jdScripts.sh
-        sed -i 's#node ./jd_blueCoin.js##g' ./jdScripts.sh
-        sed -i 's#node ./jd_carnivalcity_help.js##g' ./jdScripts.sh
-        sed -i 's#node ./jd_checkCookie.js##g' ./jdScripts.sh
-        sed -i 's#node ./jd_daily_egg.js##g' ./jdScripts.sh
-        sed -i 's#node ./jd_guawealth_island_help.js##g' ./jdScripts.sh
-        sed -i 's#node ./jd_jxg.js##g' ./jdScripts.sh
-        sed -i '/^$/d' ./jdScripts.sh
     - name: 'Commit Files'
       id: commit
       run: |
